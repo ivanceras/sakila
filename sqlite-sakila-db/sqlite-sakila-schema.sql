@@ -15,12 +15,13 @@ http://www.etl-tools.com
 --
 --DROP TABLE actor;
 
+BEGIN TRANSACTION;
+
 CREATE TABLE actor (
-  actor_id numeric NOT NULL ,
+  actor_id integer PRIMARY KEY AUTOINCREMENT ,
   first_name VARCHAR(45) NOT NULL,
   last_name VARCHAR(45) NOT NULL,
-  last_update TIMESTAMP NOT NULL,
-  PRIMARY KEY  (actor_id)
+  last_update TIMESTAMP NOT NULL
   )
   ;
 
@@ -643,3 +644,4 @@ GROUP BY a.actor_id, a.first_name, a.last_name;
 -- TO DO PROCEDURES
 -- TO DO TRIGGERS
 
+END TRANSACTION;
