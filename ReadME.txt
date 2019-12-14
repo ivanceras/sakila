@@ -5,6 +5,9 @@ Sakila sample database was ported to the following databases
  SQLIte
  Interbase/Firebird
  Microsoft Access
+ PostgreSQL
+ DB2
+ Exasol
 
 by DB Software Laboratory 
 http://www.etl-tools.com
