@@ -322,17 +322,6 @@ CREATE TRIGGER film_category_trigger_au AFTER UPDATE ON film_category
  END
 ;
 
---
--- Table structure for table film_text
---
-
-CREATE TABLE film_text (
-  film_id SMALLINT NOT NULL,
-  title VARCHAR(255) NOT NULL,
-  description BLOB SUB_TYPE TEXT,
-  PRIMARY KEY  (film_id)
-)
-;
 
 --
 -- Table structure for table inventory

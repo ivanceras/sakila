@@ -32,8 +32,6 @@ DROP TABLE rental
 ;
 DROP TABLE inventory
 ;
-DROP TABLE film_text
-;
 DROP TABLE film_category
 ;
 DROP TABLE film_actor

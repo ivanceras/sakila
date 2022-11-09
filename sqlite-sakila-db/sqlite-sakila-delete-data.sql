@@ -19,8 +19,6 @@ DELETE FROM customer
 ;
 DELETE FROM film_category 
 ;
-DELETE FROM film_text 
-;
 DELETE FROM film_actor 
 ;
 DELETE FROM inventory 
